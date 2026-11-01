@@ -1,0 +1,20 @@
+{
+  "name": "qg-nvb-site",
+  "version": "3.2.0",
+  "description": "QG NVB — site separado do bot, sem registro de slash commands",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
